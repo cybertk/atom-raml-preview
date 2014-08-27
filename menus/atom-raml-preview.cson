@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable atom-raml-preview': 'atom-raml-preview:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-raml-preview'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'atom-raml-preview:toggle' }
+      ]
+    ]
+  }
+]
