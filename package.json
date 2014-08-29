@@ -2,9 +2,9 @@
   "name": "atom-raml-preview",
   "main": "./lib/atom-raml-preview",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Live raml preview",
   "activationEvents": ["atom-raml-preview:toggle"],
-  "repository": "https://github.com/atom/atom-raml-preview",
+  "repository": "https://github.com/cybertk/atom-raml-preview",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
