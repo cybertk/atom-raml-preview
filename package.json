@@ -1,14 +1,15 @@
 {
   "name": "atom-raml-preview",
   "main": "./lib/atom-raml-preview",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Live raml preview",
-  "activationEvents": ["atom-raml-preview:toggle"],
+  "activationEvents": [
+    "atom-raml-preview:toggle"
+  ],
   "repository": "https://github.com/cybertk/atom-raml-preview",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
